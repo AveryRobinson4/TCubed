@@ -112,6 +112,8 @@ public class TicTacToe{
                 }
             }
 
+            //TODO: --- This is where the error is. The program is not correctly checking for a winner after each move. checkGameResult should be called after each move. ---
+            
             //AFTER BREAK, CHANGE TO INPUT
             board[row][column] = currentPlayer;
             result = checkGameResult(board);
